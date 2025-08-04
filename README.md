@@ -65,3 +65,4 @@ docker-compose up -d
 ```bash
 
 Then open http://localhost:8081 to explore structured logs via Seq.
+You can download free template from here, its ready to use : https://www.milanjovanovic.tech/templates/clean-architecture
