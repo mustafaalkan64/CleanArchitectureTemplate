@@ -32,5 +32,3 @@ If you're ready to learn more, check out [**Pragmatic Clean Architecture**](http
 - Unit testing
 - Functional testing
 - Integration testing
-
-Stay awesome!
