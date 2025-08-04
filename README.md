@@ -1,34 +1,67 @@
-# Clean Architecture Template
+# 🧱 Clean Architecture Template (.NET 9)
 
-What's included in the template?
+A pragmatic and extensible Clean Architecture solution template for building robust .NET applications using **Domain-Driven Design (DDD)** principles.
 
-- SharedKernel project with common Domain-Driven Design abstractions.
-- Domain layer with sample entities.
-- Application layer with abstractions for:
-  - CQRS
-  - Example use cases
-  - Cross-cutting concerns (logging, validation)
-- Infrastructure layer with:
-  - Authentication
-  - Permission authorization
-  - EF Core, PostgreSQL
-  - Serilog
-- Seq for searching and analyzing structured logs
-  - Seq is available at http://localhost:8081 by default
-- Testing projects
-  - Architecture testing
+---
 
-I'm open to hearing your feedback about the template and what you'd like to see in future iterations.
+## 🧩 What's Included?
 
-If you're ready to learn more, check out [**Pragmatic Clean Architecture**](https://www.milanjovanovic.tech/pragmatic-clean-architecture?utm_source=ca-template):
+### 📦 SharedKernel Project
+- Common **DDD abstractions**
+- Reusable **value objects**, **base entities**, and **interfaces**
 
-- Domain-Driven Design
-- Role-based authorization
-- Permission-based authorization
-- Distributed caching with Redis
-- OpenTelemetry
-- Outbox pattern
-- API Versioning
-- Unit testing
-- Functional testing
-- Integration testing
+### 🏛 Domain Layer
+- Rich **domain model** with sample entities
+- Focus on **business logic** and **ubiquitous language**
+
+### 📚 Application Layer
+- **CQRS** with MediatR-style requests
+- Example **use cases**
+- **Cross-cutting concerns**:
+  - Logging
+  - Validation (using FluentValidation)
+
+### 🏗 Infrastructure Layer
+- **Authentication** and **Authorization**
+  - Role-based and Permission-based strategies
+- **EF Core** with **PostgreSQL** support
+- **Logging**:
+  - Structured logging via **Serilog**
+  - Integrated with **Seq** for log visualization
+
+> 🔍 Seq is available at [http://localhost:8081](http://localhost:8081) by default.
+
+### 🧪 Testing Projects
+- ✅ Unit Testing
+- ✅ Functional Testing
+- ✅ Integration Testing
+- ✅ Architecture Testing (e.g., validate dependency rules)
+
+---
+
+## 🚀 Advanced Features & Roadmap
+
+This template is built with best practices in mind and is designed to grow with your project. It includes or supports:
+
+- ✅ Domain-Driven Design (DDD)
+- ✅ Role-based Authorization
+- ✅ Permission-based Authorization
+- ✅ Distributed Caching with Redis
+- ✅ OpenTelemetry for distributed tracing
+- ✅ Outbox Pattern for reliable event publishing
+- ✅ API Versioning
+- ✅ Unit Testing
+- ✅ Functional Testing
+- ✅ Integration Testing
+
+---
+
+## 📥 Getting Started
+
+```bash
+git clone https://github.com/your-org/clean-architecture-template.git
+cd clean-architecture-template
+docker-compose up -d
+```bash
+
+Then open http://localhost:8081 to explore structured logs via Seq.
