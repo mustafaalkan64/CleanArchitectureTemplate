@@ -62,7 +62,8 @@ This template is built with best practices in mind and is designed to grow with 
 git clone https://github.com/your-org/clean-architecture-template.git
 cd clean-architecture-template
 docker-compose up -d
-```bash
+```
 
 Then open http://localhost:8081 to explore structured logs via Seq.
+
 You can download free template from here, its ready to use : https://www.milanjovanovic.tech/templates/clean-architecture
